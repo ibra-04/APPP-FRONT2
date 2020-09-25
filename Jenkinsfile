@@ -4,7 +4,7 @@ node {
     def registryCredential = 'dockerhub'
 	
 	stage('Git') {
-		git 'https://github.com/ibra-04/my-appFront.git'
+		git 'https://github.com/ibra-04/APPP-FRONT2.git'
 	}
 	stage('Build') {
 		sh 'npm install'
